@@ -1,18 +1,16 @@
-# projects
+# project task: Set up a CI/CD pipeline to deploy a simple web application on a Kubernetes cluster using Terraform.
 
-#project task: Set up a CI/CD pipeline to deploy a simple web application on a Kubernetes cluster using Terraform.
+# Step 1: Set up a Kubernetes cluster using minikube or kind
 
-#Step 1: Set up a Kubernetes cluster using minikube or kind
+# Step 2: Create a simple web application (hello world in python)
 
-#Step 2: Create a simple web application (hello world in python)
+# Step 3: Containerize the web application (Dockerfile)
 
-#Step 3: Containerize the web application (Dockerfile)
-
-#Step 4: Push the Docker image to a container registry
+# Step 4: Push the Docker image to a container registry
 
 
-#Step 5: Set up a CI/CD pipeline using Terraform
-# The pipeline should include the following stages:
+# Step 5: Set up a CI/CD pipeline using Terraform
+#The pipeline should include the following stages:
 
  #Build: Build the Docker image of the web application using the Dockerfile.
  #Test: Run any automated tests on the Docker image.
